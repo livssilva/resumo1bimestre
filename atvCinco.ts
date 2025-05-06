@@ -3,15 +3,12 @@
 Nome Aluno: Lívia Azevedo
 */
 const teclado = require('prompt-sync')();
-
 console.log("Bem-Vindo ao aplicativo que analisa e organiza as notas!")
-
 let nota1: number = parseInt(teclado("Digite a primeira nota: "));
 let nota2: number = parseInt(teclado("Digite a segunda nota: "));
 let nota3: number = parseInt(teclado("Digite a terceira nota: "));
 let nota4: number = parseInt(teclado("Digite a quarta nota: "));
 let nota5: number = parseInt(teclado("Digite a quinta nota: "));
-
 let maior: number = nota1;
 let menor: number = nota1;
 let soma: number = nota1;
@@ -37,4 +34,3 @@ let media: number = soma / 5;
 console.log(`Maior nota:, ${maior}`);
 console.log(`Menor nota:, ${menor}`);
 console.log(`Média das notas, ${media}`);
-
